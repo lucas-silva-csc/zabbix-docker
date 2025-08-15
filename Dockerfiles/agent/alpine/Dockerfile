@@ -46,7 +46,8 @@ RUN set -eux && \
             libcurl \
             libmodbus \
             libldap \
-            zlib" && \
+            zlib \
+            mysql-client" && \
     apk add \
             --no-cache \
             --clean-protected \
